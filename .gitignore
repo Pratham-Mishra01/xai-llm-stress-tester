@@ -1,0 +1,64 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.venv/
+venv/
+env/
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+
+# -------------------------
+# Node / React
+# -------------------------
+node_modules/
+dist/
+build/
+
+# -------------------------
+# Model weights / ML artifacts
+# -------------------------
+models/
+model_weights/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+
+# -------------------------
+# HuggingFace cache
+# -------------------------
+.cache/
+huggingface/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Database / volumes
+# -------------------------
+data/
+db_data/
+
+# -------------------------
+# IDE files
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
